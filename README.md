@@ -1,5 +1,4 @@
-# aria2
-aria2 without webui
+Aria2
 ---
 ### Introduction
 
@@ -49,16 +48,16 @@ aria2 without webui
 
 ### Build from source:  
 
-1. `git clone https://github.com/demonlj/aria2.git`
-2. `sudo docker build -f Dockerfile -t demonlj/aria2 .`  
+```shell
+git clone https://github.com/demonlj/aria2.git
+cd aria2
+sudo docker build -f Dockerfile -t demonlj/aria2 .
+```
 
 ### References:  
 
-https://hub.docker.com/r/xujinkai/aria2-with-webui/
-
-https://github.com/aria2/aria2  
-
-https://github.com/ziahamza/webui-aria2  
-
-https://github.com/acgotaku/BaiduExporter  
+1. [xujinkai/aria2-with-webui](https://hub.docker.com/r/xujinkai/aria2-with-webui/)
+2. [aria2](https://github.com/aria2/aria2)
+3. [webui-aria2](https://github.com/ziahamza/webui-aria2)
+4. [BaiduExporter](https://github.com/acgotaku/BaiduExporter)
 
